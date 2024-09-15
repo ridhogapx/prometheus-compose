@@ -4,4 +4,4 @@ global:
 scrape_configs:
   - job_name: 'prometheus-go'
     static_configs:
-      - targets: ['202.10.40.244:8080']
+      - targets: ['host.internal.docker:3000']
